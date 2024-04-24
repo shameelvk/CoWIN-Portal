@@ -1,0 +1,695 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: normal;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main h2 {
+  color: #007c7c;
+  font-weight: 900;
+}
+
+.header-main {
+  height: 50px;
+  background-color: #045d5d;
+}
+
+.header-main img {
+  height: 8vh;
+}
+
+.header-main .btn-1 {
+  font-size: small;
+}
+
+.logo-text a {
+  font-size: 14px;
+}
+
+header {
+  color: white;
+  z-index: 12;
+}
+
+.navBar {
+  height: 12vh;
+  background-color: #017e7e;
+  font-size: 13px;
+  border: 1px solid #017e7e;
+  font-weight: bold;
+}
+
+.navBar a {
+  letter-spacing: 1px;
+}
+
+.navBar .btn-nav {
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: normal;
+  padding: 12px 32px;
+  border: 3px solid white;
+}
+
+.navBar .btn-nav:hover {
+  border: 2px solid #ffc107;
+}
+
+.home {
+  padding: 30px 0 30px 35px;
+  background-image: url(https://www.cowin.gov.in/precaution_banner_bg_web.c656a76b28237d8fb924.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home span {
+
+  letter-spacing: -2px;
+
+  font-family: "Roboto", Condensed, sans-serif;
+  font-size: 32px;
+
+}
+
+.home .homeContent {
+  font-size: 45px;
+  border: 4px solid #fd5428;
+  font-weight: 900;
+  color: #fd5428;
+
+}
+
+.home img {
+  width: 75%;
+}
+
+.home .spt-btn span {
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.home .spt-btn {
+  background-image: linear-gradient(85deg, #017e7e 80%, #0c6161);
+  top: 250px;
+  color: white;
+  z-index: 2;
+  width: 120px;
+  height: 62px;
+}
+
+.spt-btn img {
+  width: 15px;
+}
+
+.vacci-status {
+  background: linear-gradient(110deg, #007c7c 50%, #04c4c4 0);
+}
+
+.vacci-status .doses {
+  text-align: right;
+  color: white;
+  font-weight: 600;
+}
+
+.vacci-status h4 {
+  line-height: 0%;
+  font-weight: 700;
+}
+
+.vacci-status .today {
+  font-weight: 600;
+}
+
+.vacci-status a {
+  padding: 5px 50px;
+  font-weight: 600;
+  font-size: 15px;
+
+}
+
+.vacciStep .steps {
+  left: 0;
+  right: 0;
+  top: 130px;
+}
+
+.steps .step-1 {
+  margin-left: 14em;
+}
+
+.steps .step-3 {
+  margin-right: 14em;
+}
+
+.steps span {
+  color: #007c7c;
+  background-color: white;
+  font-size: small;
+  font-weight: 600;
+  border: 1px solid #007c7c;
+  height: 120px;
+}
+
+.step-content {
+  padding: 30px 50px;
+}
+
+.step-container {
+  width: 900px;
+  margin: auto;
+}
+
+.step-card {
+  height: 65vh;
+  background-color: white;
+  text-align: center;
+  padding-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px #b5d8e2;
+  margin-right: 10px;
+}
+
+.vacciStep img {
+  height: 120px;
+}
+
+.step-card-firstcnt {
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  background-color: #007c7c;
+  color: white;
+  height: 130px;
+  padding: 0 20px;
+  font-size: 15px;
+
+}
+
+.step-card-secondcnt {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundColor {
+  background-color: #edffff;
+}
+
+.step-content .arrow {
+  font-size: 30px;
+  font-weight: bold;
+  color: #007c7c;
+
+
+}
+
+.vacci-center {
+  height: 50vh;
+  background-color: #fff;
+}
+
+.vacci-center h2 {
+  color: #079c9c;
+  text-align: center;
+}
+
+.vacci-center-content {
+  text-align: center;
+  color: #5a5a75;
+}
+
+.vacci-center h5 {
+  text-align: center;
+  color: #04a2a2;
+}
+
+.vacci-center-tab {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.vacci-center-tab .nav-link {
+  color: gray;
+}
+
+.state-dropdown {
+  border: 1px solid lightgray;
+  width: 330px;
+  height: 50px;
+  padding: 12px;
+}
+
+.state-btn {
+  font-size: large;
+  font-weight: 600;
+  width: 200px;
+  height: 45px;
+  background-color: #1e8f8f;
+  color: white;
+}
+
+.vacci-center-tabs {
+  background-color: white;
+  border: 0;
+}
+
+.vacci-details p {
+  font-size: 15px;
+  color: #0e1229;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.vacci-details-btn,
+.helthId-btn {
+  background-color: #007c7c;
+  color: white;
+  padding: 10px 20px;
+
+}
+
+.vacci-details li::marker {
+  font-size: 25px;
+  color: #25aeae;
+}
+
+.helthId p {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  text-align: center;
+
+
+}
+
+.helthId img {
+  border: 15px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #e6e8e8;
+  object-fit: fill;
+}
+
+.raise-issue h2,
+p {
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.raise-issue h2 {
+  font-size: 30px;
+}
+
+.raise-issue p {
+  font-size: small;
+}
+
+.raise-issue {
+  background-color: #007c7c;
+}
+
+.issue-card {
+  background-color: white;
+  text-align: center;
+  width: 270px;
+  height: 100%;
+}
+
+.issue-card a {
+  font-weight: 700;
+  color: #007c7c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.issue-card p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #282828;
+
+}
+
+.issue-card a:hover {
+  text-decoration: underline;
+}
+
+
+.frequently-qstn {
+  height: 75vh;
+  background-color: #fff;
+}
+
+.frequently-qstn h2 {
+  font-weight: bold;
+  color: #007c7c;
+}
+
+.download-btn {
+  font-weight: 600;
+  width: 170px;
+  height: 45px;
+  background-color: white;
+  border: 2px solid #026c6c;
+  color: #026c6c;
+}
+
+.frequently-qstn img {
+  width: 260px;
+}
+
+.question-tab {
+  border-radius: 25px 25px 0 0;
+  border-bottom: 3px solid lightgray;
+  background-color: #dafbfb;
+  height: 65px;
+
+}
+
+.question-content {
+  height: 270px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(233, 230, 230);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.question-content p {
+  font-weight: bold;
+  color: black;
+}
+
+.question-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.question-content a:hover {
+  text-decoration: underline;
+}
+
+.question-content p:hover {
+  text-decoration: underline;
+}
+
+.new-cowin {
+  height: 70vh;
+  background-color: #edffff;
+}
+
+.new-cowin h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #007c7c;
+}
+
+.cowin-scroll {
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.new-cowin-acc-item {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+  width: 420px;
+  height: auto;
+}
+
+.accordion-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.accordion-body {
+  background-color: rgb(246, 244, 244);
+  color: rgb(100, 99, 99);
+}
+
+
+.vacci-drive {
+  height: 85vh;
+  background-color: #fff;
+}
+.vacci-drive h2 {
+  color: #007c7c;
+  font-weight: bold;
+  text-align: center;
+}
+.vacci-drive .vacci-drive-btn {
+  border: 3px solid #2e9595;
+  border-color: #2e9595;
+  width: 250px;
+  color: #2e9595;
+}
+
+
+
+
+
+.partners {
+  height: 50vh;
+  background-color: #e0fafa;
+}
+.partners h2 {
+  color: #026c6c;
+  font-weight: 700;
+  font-weight: bold;
+}
+.partners .partnr-logo {
+  background-color: white;
+  border-radius: 3px;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  box-shadow: 1px 1px 5px gray;
+}
+.partners .view-btn {
+  width: 220px;
+  height: 45px;
+  background-color: #026c6c;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.partners .reg-btn {
+  width: 220px;
+  height: 45px;
+  border: 2px solid #026c6c;
+  color: #026c6c;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+.main-footer{
+  background: #007c7c;
+  color: white;
+  position: relative;
+  padding: 30px 0 0;
+}
+.main-footer-left h4 {
+  /* background-color: #015158; */
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #99d9d9;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+ .main-footer-left ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ .main-footer-left li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+ .main-footer-left a {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+ .support {
+  font-weight: 600;
+  color: #99d9d9;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+ .support a {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+ .helpline p {
+  font-size: 12px;
+  font-weight: 400;
+}
+ .help-contact ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 15px 0;
+  margin: 0;
+}
+ .help-contact li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+ .help-contact h4 {
+  color: #99d9d9;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
+  
+}
+ .help-contact a {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-last {
+  background-color: #055151;
+  height: 15vh;
+ 
+}
+
+.footer-last  span {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+
+.footer-last  li {
+  list-style: none;
+}
+
+.footer-last  img {
+  vertical-align: middle;
+}
+
+.footer-last a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs_label {
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 22px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 50%;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.tabs_radio {
+  display: none;
+}
+.tab-content {
+  order: 1;
+  width: 100%;
+  display: none;
+}
+
+.tabs_radio:checked+.tabs_label {
+  font-weight: bold;
+  opacity: 100%;
+  color: #02aeae;
+  border-bottom: 2px solid #009578;
+}
+
+.tabs_radio:checked+.tabs_label+.tab-content {
+  display: initial;
+}
+
+.state-list {
+ 
+  width: 380px;
+  opacity: 70%;
+  border: 1px solid rgb(199, 193, 193);
+  padding: 10px;
+  font-size: 18px;
+}
+
+.district-list {
+ 
+  width: 380px;
+  opacity: 70%;
+  border: 1px solid rgb(199, 193, 193);
+  padding: 10px;
+  font-size: 18px;
+}
+
+.by-district-btn {
+  margin-left: 69%;
+  position: relative;
+  top: -100px;
+  width: 100px;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: #007c7c;
+  padding: 12px;
+}
+
+ .pin-input {
+  width: 500px;
+  padding: 10px;
+  opacity: 70%;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.map-search {
+  position: absolute;
+  width: 1000px;
+  margin-top: 2%;
+  margin-left: 4%;
+  padding: 10px;
+  border: 0.5px solid gray;
+  font-size: 18px;
+  line-height: 15.75px;
+  text-align: left;
+}
+
+.map {
+  margin-top: 7%;
+ 
+}
+
+.vacci-center .serch-btn{
+  background-color: #007c7c;
+  width: 150px;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+
+}
